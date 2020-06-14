@@ -20,7 +20,7 @@
 <meta itemprop="description" content="Personal Project - As graduation approaches, I decided that it would be beneficial to get an overview of the Data centred jobs in Singapore. Therefore, I decided to scrap the popular job site, Glassdoor, to gather data on the jobs on the market and have the bigger picture of the job market.">
 <meta itemprop="datePublished" content="2020-06-14T00:00:00&#43;08:00" />
 <meta itemprop="dateModified" content="2020-06-14T00:00:00&#43;08:00" />
-<meta itemprop="wordCount" content="1154">
+<meta itemprop="wordCount" content="1094">
 
 
 
@@ -328,8 +328,7 @@
 <li>4.3 Technical Skills Requested for Jobs</li>
 <li>4.4 Academic Skills Requested for Jobs</li>
 <li>4.5 Hires by ownership type</li>
-<li>4.6 Job Demand by Industry</li>
-<li>4.7 Job Description Word Cloud</li>
+<li>4.6 Job Description Word Cloud</li>
 </ul>
 </li>
 <li>
@@ -362,8 +361,7 @@
 <!-- raw HTML omitted --> Unfortunately, Glassdoor do not have any public API available, therefore we needed to scrap the data to collect the information on the postings on the site. I utilised selenium package within Python to scrap the website as Glassdoor renders it webpage with Javascript instead of HTML, therefore, we needed the user input function selenium has to offer.
 <!-- raw HTML omitted --> The data was pulled on the 22nd May 2020.</p>
 <h2 id="4-findings">4. Findings</h2>
-<!-- raw HTML omitted -->
-<h3 id="41-number-of-job-listings-per-job-title-h3">4.1 Number of Job Listings per Job Title <!-- raw HTML omitted --></h3>
+<h3 id="41-number-of-job-listings-per-job-title">4.1 Number of Job Listings per Job Title</h3>
 <p>I wanted to find out the number of job listings for the different Job title that were related to the keywords used in the data collection process. We found that there&rsquo;s the job listings for Data Scientist, followed by Data Analyst, Data Engineer, Manager, Machine Learning Engineer, and finally, Director.</p>
 <table>
 <thead>
@@ -407,7 +405,7 @@
 </tbody>
 </table>
 <p><img src="https://user-images.githubusercontent.com/36501392/84592079-6f4dd580-ae75-11ea-8235-83ef6543ef2e.png" alt="Number of Jobs listed on Glassdoor"></p>
-<h3 id="42-minimum-education-level-required-h3">4.2 Minimum Education Level Required <!-- raw HTML omitted --></h3>
+<h3 id="42-minimum-education-level-required">4.2 Minimum Education Level Required</h3>
 <p>I found that most jobs posting for data-driven jobs look for hires with Bachelors Degree. However, it can be noted that there&rsquo;s a sizeable numbers of employers looking for masters and PhD level of qualification. There&rsquo;s a sizeable portion of employers who do not specify university level of qualification either as they do not require a university qualification or they omitted the education level in the Job Description.</p>
 <table>
 <thead>
@@ -441,7 +439,7 @@
 </tbody>
 </table>
 <p><img src="https://user-images.githubusercontent.com/36501392/82721446-bf5ecf80-9cef-11ea-9f57-d48ad5d65426.png" alt="Minimum Education Level required"></p>
-<h3 id="43-technical-skills-requested-for-jobs-h3">4.3 Technical Skills Requested for Jobs <!-- raw HTML omitted --></h3>
+<h3 id="43-technical-skills-requested-for-jobs">4.3 Technical Skills Requested for Jobs</h3>
 <p>As I expected Python was the most requested skillset that employer wanted prospective hires to have, it&rsquo;s closely followed by SQL. Big data platforms such as Apache Spark and Hadoop alongside Scala are relatively high in demand as well.
 I was very surprise to see that R was not highly requested in the technology industry but I postulate that R is used greater in academic circles.</p>
 <table>
@@ -496,11 +494,11 @@ I was very surprise to see that R was not highly requested in the technology ind
 </tbody>
 </table>
 <p><img src="https://user-images.githubusercontent.com/36501392/82721458-cd145500-9cef-11ea-80fe-48f0f39d6865.png" alt="Technical Skills requested for Job"></p>
-<h3 id="44-academic-skills-requested-for-jobs-h3">4.4 Academic Skills Requested for Jobs <!-- raw HTML omitted --></h3>
+<h3 id="44-academic-skills-requested-for-jobs">4.4 Academic Skills Requested for Jobs</h3>
 <p>Unsurprisingly, the top academic skill set looked for by employers is Machine Learning with predictive analysis. However other academic skills sets such as DevOps, Statistics and Database Management is actually rarely mention, and Calculus was not mention at all.
 I postulate that many employers believe that these skills should be instilled into them during their academic training. Therefore, in the next sub-section, I&rsquo;ll investigate the education level that employers expect.</p>
 <p><img src="https://user-images.githubusercontent.com/36501392/82721464-d3a2cc80-9cef-11ea-8ca8-1f0f14cb75db.png" alt="Academic Skills requested for Job"></p>
-<h3 id="45-hires-by-ownership-type-h3">4.5 Hires by ownership type <!-- raw HTML omitted --></h3>
+<h3 id="45-hires-by-ownership-type">4.5 Hires by ownership type</h3>
 <p>We found that by ownership, the biggest hire of data driven jobs is the private sector. Followed by public companies and government firms. This is not surprising that private and public company are the biggest players, as they are profit driven and would want to capitalise on new technology and skill set that can help to streamline their operations.</p>
 <table>
 <thead>
@@ -549,10 +547,7 @@ I postulate that many employers believe that these skills should be instilled in
 </tbody>
 </table>
 <p><img src="https://user-images.githubusercontent.com/36501392/82721645-8de70380-9cf1-11ea-9747-a1f81a8023db.png" alt="Screenshot 2020-05-23 at 12 32 40"></p>
-<h3 id="46-job-demand-by-industry-h3">4.6 Job Demand by Industry <!-- raw HTML omitted --></h3>
-<p>We found that the largest listings per industry is the government agencies, followed by internet companies and banking industry. However, it&rsquo;s important to note that we grouped the entire government agencies and its subsidiary as a single industry. Therefore, this might partially explain this large percentage of the job listings.
-<img src="https://user-images.githubusercontent.com/36501392/84592963-e1291d80-ae7b-11ea-8ad6-70a09ba0af2e.png" alt="Job demand by Industry"></p>
-<h3 id="47-job-description-word-cloud-h3">4.7 Job Description Word Cloud <!-- raw HTML omitted --></h3>
+<h3 id="46-job-description-word-cloud">4.6 Job Description Word Cloud</h3>
 <p>In the job description, we find that the knowledge in machine learning is the most popular skill that is requested by employers. Other notable skills are data mining, predictive modeling, data pipeline, natural language processing and big data.</p>
 <p><img src="https://user-images.githubusercontent.com/36501392/82721433-a9e9a580-9cef-11ea-86df-defbd17b1b34.png" alt="Job Description Word Cloud"></p>
 <h2 id="5-conclusions">5. Conclusions</h2>
@@ -593,13 +588,12 @@ Thank you for viewing!(:</p>
     <li><a href="#3-data-collection-approach">3. Data Collection Approach</a></li>
     <li><a href="#4-findings">4. Findings</a>
       <ul>
-        <li><a href="#41-number-of-job-listings-per-job-title-h3">4.1 Number of Job Listings per Job Title <!-- raw HTML omitted --></a></li>
-        <li><a href="#42-minimum-education-level-required-h3">4.2 Minimum Education Level Required <!-- raw HTML omitted --></a></li>
-        <li><a href="#43-technical-skills-requested-for-jobs-h3">4.3 Technical Skills Requested for Jobs <!-- raw HTML omitted --></a></li>
-        <li><a href="#44-academic-skills-requested-for-jobs-h3">4.4 Academic Skills Requested for Jobs <!-- raw HTML omitted --></a></li>
-        <li><a href="#45-hires-by-ownership-type-h3">4.5 Hires by ownership type <!-- raw HTML omitted --></a></li>
-        <li><a href="#46-job-demand-by-industry-h3">4.6 Job Demand by Industry <!-- raw HTML omitted --></a></li>
-        <li><a href="#47-job-description-word-cloud-h3">4.7 Job Description Word Cloud <!-- raw HTML omitted --></a></li>
+        <li><a href="#41-number-of-job-listings-per-job-title">4.1 Number of Job Listings per Job Title</a></li>
+        <li><a href="#42-minimum-education-level-required">4.2 Minimum Education Level Required</a></li>
+        <li><a href="#43-technical-skills-requested-for-jobs">4.3 Technical Skills Requested for Jobs</a></li>
+        <li><a href="#44-academic-skills-requested-for-jobs">4.4 Academic Skills Requested for Jobs</a></li>
+        <li><a href="#45-hires-by-ownership-type">4.5 Hires by ownership type</a></li>
+        <li><a href="#46-job-description-word-cloud">4.6 Job Description Word Cloud</a></li>
       </ul>
     </li>
     <li><a href="#5-conclusions">5. Conclusions</a></li>
