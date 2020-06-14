@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>index on James&#39; Portfolio</title>
+    <link>https://jamesgsw.github.io/James-Portfolio/tags/index/</link>
+    <description>Recent content in index on James&#39; Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>James Gan | Personal Portfolio | 2020&lt;/a&gt;</copyright>
+    
+	<atom:link href="https://jamesgsw.github.io/James-Portfolio/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Projects</title>
+      <link>https://jamesgsw.github.io/James-Portfolio/projects/</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://jamesgsw.github.io/James-Portfolio/projects/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

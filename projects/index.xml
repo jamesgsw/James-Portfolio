@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on James&#39; Portfolio</title>
+    <link>https://jamesgsw.github.io/James-Portfolio/projects/</link>
+    <description>Recent content in Projects on James&#39; Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>James Gan | Personal Portfolio | 2020&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 14 Jun 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://jamesgsw.github.io/James-Portfolio/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exploring the Big Data and Analytics Job Market in Singapore 2020</title>
+      <link>https://jamesgsw.github.io/James-Portfolio/projects/job-market/</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://jamesgsw.github.io/James-Portfolio/projects/job-market/</guid>
+      <description>&lt;p&gt;Personal Project - As graduation approaches, I decided that it would be beneficial to get an overview of the Data centred jobs in Singapore. Therefore, I decided to scrap the popular job site, Glassdoor, to gather data on the jobs on the market and have the bigger picture of the job market.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Statistical Approach to Titanic Accident</title>
+      <link>https://jamesgsw.github.io/James-Portfolio/projects/titanic-accident/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://jamesgsw.github.io/James-Portfolio/projects/titanic-accident/</guid>
+      <description>&lt;p&gt;Personal Project -  I undertook this project during the start of the penultimate year summer break to hone my knowledge in statistics and analytical thinking.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Optimising Warehouse Resource Allocation</title>
+      <link>https://jamesgsw.github.io/James-Portfolio/projects/psa-warehouse-allocation/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://jamesgsw.github.io/James-Portfolio/projects/psa-warehouse-allocation/</guid>
+      <description>&lt;p&gt;Industry Attachment Project - This project was my university industry attachment with PSA International PTE LTD in conjunction with two university modules: (1) Statistics and (2) Manufacturing and Supply Chain Operations.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Identification of Manufacturing Process Bottlenecks</title>
+      <link>https://jamesgsw.github.io/James-Portfolio/projects/tsh-manufacturing-bottleneck/</link>
+      <pubDate>Fri, 22 Nov 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://jamesgsw.github.io/James-Portfolio/projects/tsh-manufacturing-bottleneck/</guid>
+      <description>&lt;p&gt;Industry Attachment Project - This project was my university industry attachment with TSH Synergy PTE LTD in conjunction with  university modules: Data and Business Analytics. By creating a Business Intelligence Dashboard and Data Analysis to expedite the identification of possible bottlenecks.
+&lt;img src=&#34;https://user-images.githubusercontent.com/36501392/84379763-ef2b3400-ac18-11ea-86be-ebb0f4fb13c2.png&#34; alt=&#34;Team 19&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

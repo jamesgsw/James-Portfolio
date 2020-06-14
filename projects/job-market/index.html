@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang='en'><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+<title>Exploring the Big Data and Analytics Job Market in Singapore 2020 | James&#39; Portfolio</title>
+<meta name="generator" content="Hugo 0.72.0" />
+
+
+
+<link rel="stylesheet" href="https://jamesgsw.github.io/James-Portfolio/css/eureka.min.css">
+
+<script defer src="https://jamesgsw.github.io/James-Portfolio/js/eureka.js"></script>
+<link
+    href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.0.3/build/styles/solarized-light.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/js/all.min.js"></script>
+
+<meta itemprop="name" content="Exploring the Big Data and Analytics Job Market in Singapore 2020">
+<meta itemprop="description" content="Personal Project - As graduation approaches, I decided that it would be beneficial to get an overview of the Data centred jobs in Singapore. Therefore, I decided to scrap the popular job site, Glassdoor, to gather data on the jobs on the market and have the bigger picture of the job market.">
+<meta itemprop="datePublished" content="2020-06-14T00:00:00&#43;08:00" />
+<meta itemprop="dateModified" content="2020-06-14T00:00:00&#43;08:00" />
+<meta itemprop="wordCount" content="1154">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta property="og:title" content="Exploring the Big Data and Analytics Job Market in Singapore 2020 | James&#39; Portfolio" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:url" content="https://jamesgsw.github.io/James-Portfolio/projects/job-market/" />
+
+
+<meta property="og:description"
+    content="Personal Project - As graduation approaches, I decided that it would be beneficial to get an overview of the Data centred jobs in Singapore. Therefore, I decided to scrap the popular job site, Glassdoor, to gather data on the jobs on the market and have the bigger picture of the job market." />
+
+<meta property="og:locale" content="en" />
+
+
+
+<meta property="og:site_name" content="James&#39; Portfolio" />
+
+
+
+
+
+<meta property="article:published_time" content="2020-06-14T00:00:00&#43;08:00" />
+
+
+<meta property="article:modified_time" content="2020-06-14T00:00:00&#43;08:00" />
+
+
+
+<meta property="article:section" content="projects" />
+
+<body>
+    <header class="fixed w-full min-h-16 z-50 bg-secondary-bg shadow-sm">
+        <div class="container mx-auto">
+            <div class="max-w-screen-xl"><nav class="flex items-center justify-between flex-wrap p-4">
+    <div class="flex items-center flex-shrink-0 text-primary-text mr-6">
+        <a href="https://jamesgsw.github.io/James-Portfolio/" class="font-semibold text-xl tracking-tight">James&#39; Portfolio</a>
+    </div>
+    <div class="block md:hidden">
+        <button id="navbar-btn" class="flex items-center px-3 py-2">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+
+    <div id="target" class="hidden block flex-grow md:flex md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0" id="current-url"
+            currenturl="/projects/job-market/">
+            
+            <a href="https://jamesgsw.github.io/James-Portfolio/about/"
+                class="block mt-4 md:inline-block md:mt-0 hover:text-eureka mr-4 main-a">About</a>
+            
+            <a href="https://jamesgsw.github.io/James-Portfolio/workexperience/"
+                class="block mt-4 md:inline-block md:mt-0 hover:text-eureka mr-4 main-a">Work Experience</a>
+            
+            <a href="https://jamesgsw.github.io/James-Portfolio/projects/"
+                class="block mt-4 md:inline-block md:mt-0 hover:text-eureka mr-4 main-a">Projects</a>
+            
+            <a href="https://jamesgsw.github.io/James-Portfolio/education/"
+                class="block mt-4 md:inline-block md:mt-0 hover:text-eureka mr-4 main-a">Education</a>
+            
+            <a href="https://jamesgsw.github.io/James-Portfolio/eca/"
+                class="block mt-4 md:inline-block md:mt-0 hover:text-eureka mr-4 main-a">Extra-Curricular Activities</a>
+            
+            <a href="https://jamesgsw.github.io/James-Portfolio/skills/"
+                class="block mt-4 md:inline-block md:mt-0 hover:text-eureka mr-4 main-a">Skills</a>
+            
+            <a href="https://jamesgsw.github.io/James-Portfolio/contact/"
+                class="block mt-4 md:inline-block md:mt-0 hover:text-eureka mr-4 main-a">Contact</a>
+            
+        </div>
+
+        <div class="relative inline-block pt-4 md:pt-0">
+            <div class=" relative cursor-pointer hover:text-eureka" id="lightDarkMode">
+                <i class="fas"></i>
+            </div>
+            <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+            </div>
+            <div class="absolute hidden left-0 md:left-auto right-auto md:right-0 bg-secondary-bg rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                id='lightDarkOptions'>
+                <div class="pl-6 pr-16 py-1 hover:text-eureka">Light</div>
+                <div class="pl-6 pr-16 py-1 hover:text-eureka">Dark</div>
+                <div class="pl-6 pr-16 py-1 hover:text-eureka">Auto</div>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+
+    function getcolorscheme() {
+        let element = document.getElementById('lightDarkMode');
+        let targetDiv = document.getElementById('lightDarkOptions');
+        let targets = targetDiv.getElementsByTagName('div');
+        let screen = document.getElementById('is-open');
+
+
+        if (storageColorScheme != null) {
+            let old_icon = element.firstElementChild.getAttribute("data-icon")
+            let icon = switchMode(storageColorScheme)
+            element.firstElementChild.setAttribute("data-icon", icon)
+            element.firstElementChild.classList.remove('fa-' + old_icon)
+            element.firstElementChild.classList.add('fa-' + icon)
+        } else {
+            element.firstElementChild.setAttribute("data-icon", 'adjust')
+            element.firstElementChild.classList.add('fa-adjust')
+        }
+
+        element.addEventListener('click', () => {
+            targetDiv.classList.toggle('hidden')
+            screen.classList.toggle('hidden')
+        })
+
+        for (let target of targets) {
+            target.addEventListener('click', () => {
+                let icon = switchMode(target.innerHTML)
+                let old_icon = element.firstElementChild.getAttribute("data-icon")
+                element.firstElementChild.setAttribute("data-icon", icon)
+                element.firstElementChild.classList.remove('fa-' + old_icon)
+                element.firstElementChild.classList.add('fa-' + icon)
+
+                localStorage.setItem("lightDarkMode", target.innerHTML)
+
+                targetDiv.classList.toggle('hidden')
+                screen.classList.toggle('hidden')
+            })
+        }
+        screen.addEventListener('click', () => {
+            targetDiv.classList.toggle('hidden')
+            screen.classList.toggle('hidden')
+        })
+
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme()
+    });
+    
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+        let element = document.getElementById('navbar-btn');
+        let screen = document.getElementById('is-open-mobile');
+        let target = document.getElementById('target');
+        element.addEventListener('click', () => {
+
+            target.classList.toggle('hidden');
+            screen.classList.toggle('hidden')
+        })
+        screen.addEventListener('click', () => {
+            target.classList.toggle('hidden')
+            screen.classList.toggle('hidden')
+        })
+    });
+
+    function switchMenu() {
+        let currenturl = document.getElementById('current-url').getAttribute('currenturl')
+        if (currenturl.length > 1) {
+            currenturl = currenturl.substr(0, currenturl.length - 1)
+        }
+
+        sessionStorage.setItem("mainKey", currenturl)
+
+        let elements = document.getElementsByClassName('main-a');
+        for (let i in elements) {
+            if (typeof elements[i] === "object") {
+                let elementurl = elements[i].getAttribute('href')
+                if (elementurl.length > 1 && elementurl.charAt(elementurl.length - 1) == '/') {
+                    elementurl = elementurl.substr(0, elementurl.length - 1)
+                }
+                if (elementurl == sessionStorage.getItem("mainKey")) {
+                    elements[i].classList.add('text-eureka')
+                } else {
+                    elements[i].classList.remove('text-eureka')
+                }
+            }
+        }
+    }
+    switchMenu();
+
+    function switchMode(mode) {
+        let icon = ''
+        switch (mode) {
+            case 'Light':
+                window.matchMedia("(prefers-color-scheme: dark)").removeListener(func)
+                
+                icon = 'sun'
+                document.getElementsByTagName('html')[0].classList.remove('dark')
+                break
+            case 'Dark':
+                window.matchMedia("(prefers-color-scheme: dark)").removeListener(func)
+                
+                icon = 'moon'
+                document.getElementsByTagName('html')[0].classList.add('dark')
+                break
+            case 'Auto':
+                icon = 'adjust'
+                const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+                
+
+                window.matchMedia("(prefers-color-scheme: dark)").addListener(func)
+                
+
+                if (isDarkMode) {
+                    activateDarkMode()
+                } else {
+                    activateLightMode()
+                }
+                
+                break
+        }
+        return icon
+    }
+
+    function func(e) {
+        if (e.matches) {
+            activateDarkMode()
+        } else {
+            activateLightMode()
+        }
+    }
+
+    function activateDarkMode() {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+    function activateLightMode() {
+        document.getElementsByTagName('html')[0].classList.remove('dark')
+    }
+
+    
+</script></div>
+        </div>
+    </header>
+
+    <main class="min-h-screen pt-16">
+        
+        <div class="container mx-auto ">
+            <div class="max-w-screen-xl pt-12 lg:px-4 xl:px-8">
+
+
+<div class="grid grid-cols-2 lg:grid-cols-8 gap-4">
+    <div
+        class="col-span-2  lg:col-span-6 bg-secondary-bg rounded px-6 py-8">
+        <h1 class="font-bold text-3xl text-primary-text">Exploring the Big Data and Analytics Job Market in Singapore 2020</h1>
+        <div class="flex flex-wrap flex-row items-center my-2 text-tertiary-text">
+    <div class="mr-4 my-2">
+        <i class="fas fa-calendar"></i>
+        <span>Jun 14, 2020</span>
+    </div>
+    <div class="mr-4 my-2">
+        <span>&middot;</span>
+    </div>
+    <div class="mr-4 my-2">
+        <i class="fas fa-clock"></i>
+        <span>6 min read</span>
+    </div>
+    
+
+    
+</div>
+        <div class="my-4">
+            
+
+
+
+
+
+
+<img src="https://jamesgsw.github.io/James-Portfolio/img/Pay-Comparison.png" class="w-full" alt="Featured Image">
+
+
+        </div>
+        <div class="content">
+            <p>Personal Project - As graduation approaches, I decided that it would be beneficial to get an overview of the Data centred jobs in Singapore. Therefore, I decided to scrap the popular job site, Glassdoor, to gather data on the jobs on the market and have the bigger picture of the job market.</p>
+<h2 id="methodology">Methodology</h2>
+<ul>
+<li>
+<ol>
+<li>Background</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>Usage</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>Data Collection Approach</li>
+</ol>
+</li>
+<li>
+<ol start="4">
+<li>Findings</li>
+</ol>
+<ul>
+<li>4.1 Number of Job Listings per Job Title</li>
+<li>4.2 Minimum Education Level Required</li>
+<li>4.3 Technical Skills Requested for Jobs</li>
+<li>4.4 Academic Skills Requested for Jobs</li>
+<li>4.5 Hires by ownership type</li>
+<li>4.6 Job Demand by Industry</li>
+<li>4.7 Job Description Word Cloud</li>
+</ul>
+</li>
+<li>
+<ol start="5">
+<li>Conclusions</li>
+</ol>
+</li>
+<li>
+<ol start="6">
+<li>Acknowledgement</li>
+</ol>
+</li>
+<li>
+<ol start="7">
+<li>Files in this Repository</li>
+</ol>
+</li>
+</ul>
+<h2 id="1-background">1. Background</h2>
+<p>As graduation approaches, I decided that it would help to get an overview of the Data centric jobs in Singapore. Therefore, I decided to web scrap the popular job site, Glassdoor, to gather data on the jobs on the market and have the bigger picture of the job market.</p>
+<h2 id="2-usage">2. Usage</h2>
+<p>The project is written in a Jupyter Notebook file in the Python Language, for easy viewing of the project sections, I have included a viewer website that contains these Jupyter Notebook. I have split the notebooks into the various overarching task I perform for this project.</p>
+<ul>
+<li><a href="https://nbviewer.jupyter.org/github/jamesgsw/Data-Analyst-Job-Landscape-in-2020/blob/master/Part%201.%20Data%20Collection.ipynb">Part 1. Data Collection</a></li>
+<li><a href="https://nbviewer.jupyter.org/github/jamesgsw/Data-Analyst-Job-Landscape-in-2020/blob/master/Part%202.%20Data%20Cleaning.ipynb">Part 2. Data Cleaning</a></li>
+<li><a href="https://nbviewer.jupyter.org/github/jamesgsw/Exploring-the-Big-Data-and-Analytics-Job-Market-in-Singapore-2020/blob/master/Part%203.%20Data%20Analysis.ipynb">Part 3. Data Analysis</a></li>
+</ul>
+<h2 id="3-data-collection-approach">3. Data Collection Approach</h2>
+<p>I chose Glassdoor as the website to attain my data due to the depth and breadth of companies posted. The anonymity nature of Glassdoor further compelled me to use this website to attain job information as it would mean that the information is less skewed towards any party.
+<!-- raw HTML omitted --> Unfortunately, Glassdoor do not have any public API available, therefore we needed to scrap the data to collect the information on the postings on the site. I utilised selenium package within Python to scrap the website as Glassdoor renders it webpage with Javascript instead of HTML, therefore, we needed the user input function selenium has to offer.
+<!-- raw HTML omitted --> The data was pulled on the 22nd May 2020.</p>
+<h2 id="4-findings">4. Findings</h2>
+<!-- raw HTML omitted -->
+<h3 id="41-number-of-job-listings-per-job-title-h3">4.1 Number of Job Listings per Job Title <!-- raw HTML omitted --></h3>
+<p>I wanted to find out the number of job listings for the different Job title that were related to the keywords used in the data collection process. We found that there&rsquo;s the job listings for Data Scientist, followed by Data Analyst, Data Engineer, Manager, Machine Learning Engineer, and finally, Director.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Job Title</th>
+<th align="center">Number of Jobs</th>
+<th align="center">Relative Frequency, %</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Data Scientist</td>
+<td align="center">925</td>
+<td align="center">45.00</td>
+</tr>
+<tr>
+<td align="center">Data Analyst</td>
+<td align="center">477</td>
+<td align="center">23.00</td>
+</tr>
+<tr>
+<td align="center">Data Engineer</td>
+<td align="center">440</td>
+<td align="center">21.000</td>
+</tr>
+<tr>
+<td align="center">Manager</td>
+<td align="center">129</td>
+<td align="center">6.00</td>
+</tr>
+<tr>
+<td align="center">Machine Learning Engineer</td>
+<td align="center">61</td>
+<td align="center">3.00</td>
+</tr>
+<tr>
+<td align="center">Director</td>
+<td align="center">17</td>
+<td align="center">1.00</td>
+</tr>
+</tbody>
+</table>
+<p><img src="https://user-images.githubusercontent.com/36501392/84592079-6f4dd580-ae75-11ea-8235-83ef6543ef2e.png" alt="Number of Jobs listed on Glassdoor"></p>
+<h3 id="42-minimum-education-level-required-h3">4.2 Minimum Education Level Required <!-- raw HTML omitted --></h3>
+<p>I found that most jobs posting for data-driven jobs look for hires with Bachelors Degree. However, it can be noted that there&rsquo;s a sizeable numbers of employers looking for masters and PhD level of qualification. There&rsquo;s a sizeable portion of employers who do not specify university level of qualification either as they do not require a university qualification or they omitted the education level in the Job Description.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Education Level</th>
+<th align="center">Frequency</th>
+<th align="center">Relative Frequency, %</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Bachelors Degree</td>
+<td align="center">1035</td>
+<td align="center">51.00</td>
+</tr>
+<tr>
+<td align="center">PhD</td>
+<td align="center">299</td>
+<td align="center">15.00</td>
+</tr>
+<tr>
+<td align="center">No Education Specified</td>
+<td align="center">299</td>
+<td align="center">15.00</td>
+</tr>
+<tr>
+<td align="center">Masters</td>
+<td align="center">232</td>
+<td align="center">11.00</td>
+</tr>
+</tbody>
+</table>
+<p><img src="https://user-images.githubusercontent.com/36501392/82721446-bf5ecf80-9cef-11ea-9f57-d48ad5d65426.png" alt="Minimum Education Level required"></p>
+<h3 id="43-technical-skills-requested-for-jobs-h3">4.3 Technical Skills Requested for Jobs <!-- raw HTML omitted --></h3>
+<p>As I expected Python was the most requested skillset that employer wanted prospective hires to have, it&rsquo;s closely followed by SQL. Big data platforms such as Apache Spark and Hadoop alongside Scala are relatively high in demand as well.
+I was very surprise to see that R was not highly requested in the technology industry but I postulate that R is used greater in academic circles.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Technical Skills</th>
+<th align="center">Frequency</th>
+<th align="center">Relative Frequency, %</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Python</td>
+<td align="center">1351</td>
+<td align="center">66.00</td>
+</tr>
+<tr>
+<td align="center">SQL</td>
+<td align="center">1193</td>
+<td align="center">58.00</td>
+</tr>
+<tr>
+<td align="center">Excel</td>
+<td align="center">763</td>
+<td align="center">37.00</td>
+</tr>
+<tr>
+<td align="center">Spark</td>
+<td align="center">629</td>
+<td align="center">31.00</td>
+</tr>
+<tr>
+<td align="center">Hadoop</td>
+<td align="center">531</td>
+<td align="center">26.00</td>
+</tr>
+<tr>
+<td align="center">Scala</td>
+<td align="center">509</td>
+<td align="center">25.00</td>
+</tr>
+<tr>
+<td align="center">AWS</td>
+<td align="center">328</td>
+<td align="center">16.00</td>
+</tr>
+<tr>
+<td align="center">R</td>
+<td align="center">159</td>
+<td align="center">8.00</td>
+</tr>
+</tbody>
+</table>
+<p><img src="https://user-images.githubusercontent.com/36501392/82721458-cd145500-9cef-11ea-80fe-48f0f39d6865.png" alt="Technical Skills requested for Job"></p>
+<h3 id="44-academic-skills-requested-for-jobs-h3">4.4 Academic Skills Requested for Jobs <!-- raw HTML omitted --></h3>
+<p>Unsurprisingly, the top academic skill set looked for by employers is Machine Learning with predictive analysis. However other academic skills sets such as DevOps, Statistics and Database Management is actually rarely mention, and Calculus was not mention at all.
+I postulate that many employers believe that these skills should be instilled into them during their academic training. Therefore, in the next sub-section, I&rsquo;ll investigate the education level that employers expect.</p>
+<p><img src="https://user-images.githubusercontent.com/36501392/82721464-d3a2cc80-9cef-11ea-8ca8-1f0f14cb75db.png" alt="Academic Skills requested for Job"></p>
+<h3 id="45-hires-by-ownership-type-h3">4.5 Hires by ownership type <!-- raw HTML omitted --></h3>
+<p>We found that by ownership, the biggest hire of data driven jobs is the private sector. Followed by public companies and government firms. This is not surprising that private and public company are the biggest players, as they are profit driven and would want to capitalise on new technology and skill set that can help to streamline their operations.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Ownership</th>
+<th align="center">Number of Jobs</th>
+<th align="center">Relative Frequency, %</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Company - Private</td>
+<td align="center">815</td>
+<td align="center">40.00</td>
+</tr>
+<tr>
+<td align="center">Company - Public</td>
+<td align="center">503</td>
+<td align="center">25.00</td>
+</tr>
+<tr>
+<td align="center">Government</td>
+<td align="center">258</td>
+<td align="center">13.00</td>
+</tr>
+<tr>
+<td align="center">Subsidiary or Business Segment</td>
+<td align="center">33</td>
+<td align="center">2.00</td>
+</tr>
+<tr>
+<td align="center">College / University</td>
+<td align="center">16</td>
+<td align="center">1.00</td>
+</tr>
+<tr>
+<td align="center">Contract</td>
+<td align="center">9</td>
+<td align="center">0.00</td>
+</tr>
+<tr>
+<td align="center">Unknown</td>
+<td align="center">9</td>
+<td align="center">0.00</td>
+</tr>
+</tbody>
+</table>
+<p><img src="https://user-images.githubusercontent.com/36501392/82721645-8de70380-9cf1-11ea-9747-a1f81a8023db.png" alt="Screenshot 2020-05-23 at 12 32 40"></p>
+<h3 id="46-job-demand-by-industry-h3">4.6 Job Demand by Industry <!-- raw HTML omitted --></h3>
+<p>We found that the largest listings per industry is the government agencies, followed by internet companies and banking industry. However, it&rsquo;s important to note that we grouped the entire government agencies and its subsidiary as a single industry. Therefore, this might partially explain this large percentage of the job listings.
+<img src="https://user-images.githubusercontent.com/36501392/84592963-e1291d80-ae7b-11ea-8ad6-70a09ba0af2e.png" alt="Job demand by Industry"></p>
+<h3 id="47-job-description-word-cloud-h3">4.7 Job Description Word Cloud <!-- raw HTML omitted --></h3>
+<p>In the job description, we find that the knowledge in machine learning is the most popular skill that is requested by employers. Other notable skills are data mining, predictive modeling, data pipeline, natural language processing and big data.</p>
+<p><img src="https://user-images.githubusercontent.com/36501392/82721433-a9e9a580-9cef-11ea-86df-defbd17b1b34.png" alt="Job Description Word Cloud"></p>
+<h2 id="5-conclusions">5. Conclusions</h2>
+<p>Overall, I&rsquo;m satisfied with the outcome of this project where I was able to fulfil my 2 goals of the project and have a better understanding of the Data centric Job Market. However, I would like to note that there are assumptions and limitations to the dataset that I would like to improve for future improvements, where I would like to gather data from Linkedin Jobs as well to increase the sample size of my search.
+Thank you for viewing!(:</p>
+<h2 id="6-acknowledgement">6. Acknowledgement</h2>
+<p>This project would not have been possible without the resources shared by other Github members. There are 2 notable Github members I would like to thank, they are <a href="https://github.com/PlayingNumbers">Mr Ken Jee</a> and <a href="https://github.com/arapfaik">Mr Ömer Sakarya</a>.</p>
+<h2 id="7-files-in-this-repository">7. Files in this Repository</h2>
+<p>The files in this bullet points are ordered in a chronological order of usage for this project.</p>
+<ul>
+<li>&ldquo;chromedriver&rdquo;: Needed for the webscraping algorithm in the 2nd bullet point</li>
+<li>&ldquo;glassdoor_scraper.py&rdquo; : The Glassdoor webscraping algorithm in Python</li>
+<li>&ldquo;Part 1. Data Collection.ipynb&rdquo; : The notebook where we call the webscraping algorithm for the different job titles</li>
+<li>&ldquo;Part 2. Data Cleaning.ipynb&rdquo; : The notebook with various cleaning algorithm after the data is collected</li>
+<li>&ldquo;Part 3. Data Analysis.ipynb&rdquo; :</li>
+<li>&ldquo;Various Job Titles CSV Files&rdquo; Folder : Folder containing the CSV files that we save after the Data Collection step in bullet 3</li>
+<li>&ldquo;Various Graphical Visualisation&rdquo; Folder : Folder containing the various Data Visulisation plots created during the Part 3. Data Analysis in .png format.</li>
+<li>&ldquo;LICENSE&rdquo; : MIT license for open source projects</li>
+<li>&ldquo;README.md&rdquo; : Documentation of the project</li>
+</ul>
+        </div>
+        
+        
+    </div>
+    
+    <div class="col-span-2">
+        
+        
+        <div class="sticky top-16 z-10 text-lg font-semibold bg-primary-bg hidden lg:block px-6 py-4">
+    <h2 class="subtitle">Table of Contents</h2>
+</div>
+<div class="sticky-toc hidden lg:block px-6 pb-6">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#methodology">Methodology</a></li>
+    <li><a href="#1-background">1. Background</a></li>
+    <li><a href="#2-usage">2. Usage</a></li>
+    <li><a href="#3-data-collection-approach">3. Data Collection Approach</a></li>
+    <li><a href="#4-findings">4. Findings</a>
+      <ul>
+        <li><a href="#41-number-of-job-listings-per-job-title-h3">4.1 Number of Job Listings per Job Title <!-- raw HTML omitted --></a></li>
+        <li><a href="#42-minimum-education-level-required-h3">4.2 Minimum Education Level Required <!-- raw HTML omitted --></a></li>
+        <li><a href="#43-technical-skills-requested-for-jobs-h3">4.3 Technical Skills Requested for Jobs <!-- raw HTML omitted --></a></li>
+        <li><a href="#44-academic-skills-requested-for-jobs-h3">4.4 Academic Skills Requested for Jobs <!-- raw HTML omitted --></a></li>
+        <li><a href="#45-hires-by-ownership-type-h3">4.5 Hires by ownership type <!-- raw HTML omitted --></a></li>
+        <li><a href="#46-job-demand-by-industry-h3">4.6 Job Demand by Industry <!-- raw HTML omitted --></a></li>
+        <li><a href="#47-job-description-word-cloud-h3">4.7 Job Description Word Cloud <!-- raw HTML omitted --></a></li>
+      </ul>
+    </li>
+    <li><a href="#5-conclusions">5. Conclusions</a></li>
+    <li><a href="#6-acknowledgement">6. Acknowledgement</a></li>
+    <li><a href="#7-files-in-this-repository">7. Files in this Repository</a></li>
+  </ul>
+</nav>
+</div>
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        enableStickyToc();
+    });
+</script>
+        
+    </div>
+    
+
+    
+    
+</div>
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.0.0/build/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>enableStickyToc();</script>
+
+
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="container mx-auto">
+            <div class="max-w-screen-xl"><footer class="w-full text-center border-t border-gray-200 mb-4 p-4 pin-b text-sm text-tertiary-text">
+    <p>James Gan | Personal Portfolio | 2020</a> &middot;  Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>
+</footer></div>
+        </div>
+    </footer>
+</body>
+
+</html>
