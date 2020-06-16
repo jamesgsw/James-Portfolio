@@ -18,9 +18,9 @@
 
 <meta itemprop="name" content="Exploring the Big Data and Analytics Job Market in Singapore 2020">
 <meta itemprop="description" content="Personal Project - As graduation approaches, I decided that it would be beneficial to get an overview of the Data centred jobs in Singapore. Therefore, I decided to scrap the popular job site, Glassdoor, to gather data on the jobs on the market and have the bigger picture of the job market.">
-<meta itemprop="datePublished" content="2020-06-14T00:00:00&#43;08:00" />
-<meta itemprop="dateModified" content="2020-06-14T00:00:00&#43;08:00" />
-<meta itemprop="wordCount" content="1094">
+<meta itemprop="datePublished" content="2020-06-16T00:00:00&#43;08:00" />
+<meta itemprop="dateModified" content="2020-06-16T00:00:00&#43;08:00" />
+<meta itemprop="wordCount" content="1169">
 
 
 
@@ -45,10 +45,10 @@
 
 
 
-<meta property="article:published_time" content="2020-06-14T00:00:00&#43;08:00" />
+<meta property="article:published_time" content="2020-06-16T00:00:00&#43;08:00" />
 
 
-<meta property="article:modified_time" content="2020-06-14T00:00:00&#43;08:00" />
+<meta property="article:modified_time" content="2020-06-16T00:00:00&#43;08:00" />
 
 
 
@@ -274,7 +274,7 @@
         <div class="flex flex-wrap flex-row items-center my-2 text-tertiary-text">
     <div class="mr-4 my-2">
         <i class="fas fa-calendar"></i>
-        <span>Jun 14, 2020</span>
+        <span>Jun 16, 2020</span>
     </div>
     <div class="mr-4 my-2">
         <span>&middot;</span>
@@ -305,64 +305,64 @@
 <ul>
 <li>
 <ol>
-<li>Background</li>
-</ol>
-</li>
-<li>
-<ol start="2">
 <li>Usage</li>
 </ol>
 </li>
 <li>
-<ol start="3">
+<ol start="2">
 <li>Data Collection Approach</li>
 </ol>
 </li>
 <li>
-<ol start="4">
+<ol start="3">
 <li>Findings</li>
 </ol>
 <ul>
-<li>4.1 Number of Job Listings per Job Title</li>
-<li>4.2 Minimum Education Level Required</li>
-<li>4.3 Technical Skills Requested for Jobs</li>
-<li>4.4 Academic Skills Requested for Jobs</li>
-<li>4.5 Hires by ownership type</li>
-<li>4.6 Job Description Word Cloud</li>
+<li>3.1 Number of Job Listings per Job Title</li>
+<li>3.2 Minimum Education Level Required</li>
+<li>3.3 Technical Skills Requested for Jobs</li>
+<li>3.4 Academic Skills Requested for Jobs</li>
+<li>3.5 Hires by ownership type</li>
+<li>3.6 Job Description Word Cloud</li>
 </ul>
 </li>
 <li>
-<ol start="5">
+<ol start="4">
 <li>Conclusions</li>
 </ol>
 </li>
 <li>
-<ol start="6">
+<ol start="5">
 <li>Acknowledgement</li>
 </ol>
 </li>
 <li>
-<ol start="7">
+<ol start="6">
 <li>Files in this Repository</li>
 </ol>
 </li>
+<li>
+<ol start="7">
+<li>Disclaimer</li>
+</ol>
+</li>
 </ul>
-<h2 id="1-background">1. Background</h2>
-<p>As graduation approaches, I decided that it would help to get an overview of the Data centric jobs in Singapore. Therefore, I decided to web scrap the popular job site, Glassdoor, to gather data on the jobs on the market and have the bigger picture of the job market.</p>
-<h2 id="2-usage">2. Usage</h2>
-<p>The project is written in a Jupyter Notebook file in the Python Language, for easy viewing of the project sections, I have included a viewer website that contains these Jupyter Notebook. I have split the notebooks into the various overarching task I perform for this project.</p>
+<h2 id="1-usage">1. Usage</h2>
+<p>The project is written in a Jupyter Notebook file with the Python Language. For easy viewing of the project sections, I have included a viewer website that contains these Jupyter Notebook. I have split the notebooks into the various overarching task I performed for this project.</p>
 <ul>
 <li><a href="https://nbviewer.jupyter.org/github/jamesgsw/Data-Analyst-Job-Landscape-in-2020/blob/master/Part%201.%20Data%20Collection.ipynb">Part 1. Data Collection</a></li>
 <li><a href="https://nbviewer.jupyter.org/github/jamesgsw/Data-Analyst-Job-Landscape-in-2020/blob/master/Part%202.%20Data%20Cleaning.ipynb">Part 2. Data Cleaning</a></li>
 <li><a href="https://nbviewer.jupyter.org/github/jamesgsw/Exploring-the-Big-Data-and-Analytics-Job-Market-in-Singapore-2020/blob/master/Part%203.%20Data%20Analysis.ipynb">Part 3. Data Analysis</a></li>
 </ul>
-<h2 id="3-data-collection-approach">3. Data Collection Approach</h2>
-<p>I chose Glassdoor as the website to attain my data due to the depth and breadth of companies posted. The anonymity nature of Glassdoor further compelled me to use this website to attain job information as it would mean that the information is less skewed towards any party.
-<!-- raw HTML omitted --> Unfortunately, Glassdoor do not have any public API available, therefore we needed to scrap the data to collect the information on the postings on the site. I utilised selenium package within Python to scrap the website as Glassdoor renders it webpage with Javascript instead of HTML, therefore, we needed the user input function selenium has to offer.
+<h2 id="2-data-collection-approach">2. Data Collection Approach</h2>
+<p>I chose Glassdoor as the website to attain my data due to the depth and breadth of companies posted. I intended to collect data from Linkedin Jobs as well but due to obfuscation, I had difficulty attaining the data.<br>
+Unfortunately, Glassdoor do not have any public API available, therefore I utilised a web scraper to collect the information on the postings on the site.</p>
+<p>I utilised selenium package within Python to scrap the website as Glassdoor renders it webpage with Javascript instead of HTML, therefore, we needed the user input function selenium has to offer.
 <!-- raw HTML omitted --> The data was pulled on the 22nd May 2020.</p>
-<h2 id="4-findings">4. Findings</h2>
-<h3 id="41-number-of-job-listings-per-job-title">4.1 Number of Job Listings per Job Title</h3>
-<p>I wanted to find out the number of job listings for the different Job title that were related to the keywords used in the data collection process. We found that there&rsquo;s the job listings for Data Scientist, followed by Data Analyst, Data Engineer, Manager, Machine Learning Engineer, and finally, Director.</p>
+<h2 id="3-findings">3. Findings</h2>
+<p>The subsections below contains my key findings, where the source code can be found in Section 1.</p>
+<h3 id="31-number-of-job-listings-per-job-title">3.1 Number of Job Listings per Job Title</h3>
+<p>I wanted to find out the job demand through using the metrics of job numbers. We found that the highest job listings was for Data Scientist.</p>
 <table>
 <thead>
 <tr>
@@ -404,9 +404,11 @@
 </tr>
 </tbody>
 </table>
-<p><img src="https://user-images.githubusercontent.com/36501392/84592079-6f4dd580-ae75-11ea-8235-83ef6543ef2e.png" alt="Number of Jobs listed on Glassdoor"></p>
-<h3 id="42-minimum-education-level-required">4.2 Minimum Education Level Required</h3>
-<p>I found that most jobs posting for data-driven jobs look for hires with Bachelors Degree. However, it can be noted that there&rsquo;s a sizeable numbers of employers looking for masters and PhD level of qualification. There&rsquo;s a sizeable portion of employers who do not specify university level of qualification either as they do not require a university qualification or they omitted the education level in the Job Description.</p>
+<p><img src="https://user-images.githubusercontent.com/36501392/84765363-b668d180-b001-11ea-9939-16564f2bbcd3.png" alt="Number of Jobs listed on Glassdoor">
+                           Figure 1 - Number of Jobs Against the Job Title</p>
+<h3 id="32-minimum-education-level-required">3.2 Minimum Education Level Required</h3>
+<p>I found that most jobs posting for data-driven jobs look for hires with Bachelors Degree. However, it can be noted that there&rsquo;s a sizeable numbers of employers looking for masters and PhD level of qualification.<br>
+An interesting observation was that 15% of employers did not specify university level of qualification either as they do not require a university qualification or they omitted the education level in the Job Description. This was a surprising result for me, but shows there are employers who look pass educational requirements</p>
 <table>
 <thead>
 <tr>
@@ -438,10 +440,11 @@
 </tr>
 </tbody>
 </table>
-<p><img src="https://user-images.githubusercontent.com/36501392/82721446-bf5ecf80-9cef-11ea-9f57-d48ad5d65426.png" alt="Minimum Education Level required"></p>
-<h3 id="43-technical-skills-requested-for-jobs">4.3 Technical Skills Requested for Jobs</h3>
-<p>As I expected Python was the most requested skillset that employer wanted prospective hires to have, it&rsquo;s closely followed by SQL. Big data platforms such as Apache Spark and Hadoop alongside Scala are relatively high in demand as well.
-I was very surprise to see that R was not highly requested in the technology industry but I postulate that R is used greater in academic circles.</p>
+<p><img src="https://user-images.githubusercontent.com/36501392/82721446-bf5ecf80-9cef-11ea-9f57-d48ad5d65426.png" alt="Minimum Education Level required">
+                    Figure 2 - Requirement Frequency Against the Education Level</p>
+<h3 id="33-technical-skills-requested-for-jobs">3.3 Technical Skills Requested for Jobs</h3>
+<p>As expected Python was the most requested skillset that employer wanted prospective hires to have, it&rsquo;s closely followed by SQL.Big data platforms such as Apache Spark and Hadoop alongside Scala are relatively high in demand as well.<br>
+I was very surprise to see that R was not highly requested in the technology industry but I postulate that R is used more often in academic circles.</p>
 <table>
 <thead>
 <tr>
@@ -493,13 +496,15 @@ I was very surprise to see that R was not highly requested in the technology ind
 </tr>
 </tbody>
 </table>
-<p><img src="https://user-images.githubusercontent.com/36501392/82721458-cd145500-9cef-11ea-80fe-48f0f39d6865.png" alt="Technical Skills requested for Job"></p>
-<h3 id="44-academic-skills-requested-for-jobs">4.4 Academic Skills Requested for Jobs</h3>
-<p>Unsurprisingly, the top academic skill set looked for by employers is Machine Learning with predictive analysis. However other academic skills sets such as DevOps, Statistics and Database Management is actually rarely mention, and Calculus was not mention at all.
-I postulate that many employers believe that these skills should be instilled into them during their academic training. Therefore, in the next sub-section, I&rsquo;ll investigate the education level that employers expect.</p>
-<p><img src="https://user-images.githubusercontent.com/36501392/82721464-d3a2cc80-9cef-11ea-8ca8-1f0f14cb75db.png" alt="Academic Skills requested for Job"></p>
-<h3 id="45-hires-by-ownership-type">4.5 Hires by ownership type</h3>
-<p>We found that by ownership, the biggest hire of data driven jobs is the private sector. Followed by public companies and government firms. This is not surprising that private and public company are the biggest players, as they are profit driven and would want to capitalise on new technology and skill set that can help to streamline their operations.</p>
+<p><img src="https://user-images.githubusercontent.com/36501392/82721458-cd145500-9cef-11ea-80fe-48f0f39d6865.png" alt="Technical Skills requested for Job">
+                      Figure 3 -  Requirement Frequency Against the Technical Skills</p>
+<h3 id="34-academic-skills-requested-for-jobs">3.4 Academic Skills Requested for Jobs</h3>
+<p>Unsurprisingly, the top academic skill set looked for by employers is Machine Learning with predictive analysis. However other academic skills sets such as DevOps, Statistics and Database Management was rarely mention, and Calculus was not mention at all.<br>
+I postulate that many employers expect  these skills to be instilled into them during their university modules and would not be needed to be stated as a requirement.</p>
+<p><img src="https://user-images.githubusercontent.com/36501392/82721464-d3a2cc80-9cef-11ea-8ca8-1f0f14cb75db.png" alt="Academic Skills requested for Job">
+                      Figure 4 -  Requirement Frequency Against the Academic Skills</p>
+<h3 id="35-hires-by-ownership-type">3.5 Hires by ownership type</h3>
+<p>We found that by ownership, the biggest hire of data driven jobs is the private sector with privatised and public companies in the top 2 positions. This is not surprising that privatised and public company are the biggest players, as their profit driven ethos, would draw them to capitalise on new technology and skill set that can help to streamline their operations and increase profits.</p>
 <table>
 <thead>
 <tr>
@@ -546,16 +551,21 @@ I postulate that many employers believe that these skills should be instilled in
 </tr>
 </tbody>
 </table>
-<p><img src="https://user-images.githubusercontent.com/36501392/82721645-8de70380-9cf1-11ea-9747-a1f81a8023db.png" alt="Screenshot 2020-05-23 at 12 32 40"></p>
-<h3 id="46-job-description-word-cloud">4.6 Job Description Word Cloud</h3>
-<p>In the job description, we find that the knowledge in machine learning is the most popular skill that is requested by employers. Other notable skills are data mining, predictive modeling, data pipeline, natural language processing and big data.</p>
-<p><img src="https://user-images.githubusercontent.com/36501392/82721433-a9e9a580-9cef-11ea-86df-defbd17b1b34.png" alt="Job Description Word Cloud"></p>
-<h2 id="5-conclusions">5. Conclusions</h2>
-<p>Overall, I&rsquo;m satisfied with the outcome of this project where I was able to fulfil my 2 goals of the project and have a better understanding of the Data centric Job Market. However, I would like to note that there are assumptions and limitations to the dataset that I would like to improve for future improvements, where I would like to gather data from Linkedin Jobs as well to increase the sample size of my search.
+<p><img src="https://user-images.githubusercontent.com/36501392/82721645-8de70380-9cf1-11ea-9747-a1f81a8023db.png" alt="Screenshot 2020-05-23 at 12 32 40">
+                      Figure 5 -  Tree Map Diagram of Ownership Type</p>
+<h3 id="36-job-description-word-cloud">3.6 Job Description Word Cloud</h3>
+<p>In the job description, we find that the knowledge in machine learning is the most popular skill that is requested by employers.<br>
+Other notable skills are data mining, predictive modelling, data pipeline, natural language processing and big data.</p>
+<p><img src="https://user-images.githubusercontent.com/36501392/82721433-a9e9a580-9cef-11ea-86df-defbd17b1b34.png" alt="Job Description Word Cloud">
+                          Figure 6 -  Job Description Word Cloud</p>
+<h2 id="4-conclusions">4. Conclusions</h2>
+<p>Overall, I&rsquo;m satisfied with the outcome of this project. I was able to fulfil my 2 goals of the project which was to have a better understanding of the Data centric Job Market and hone my web scraping techniques.<br>
+However, I acknowledge the assumptions and limitations to the dataset and I would like to improve for future improvements.<br>
+My future works include gathering data from Linkedin Jobs as well to increase the sample size of my search.
 Thank you for viewing!(:</p>
-<h2 id="6-acknowledgement">6. Acknowledgement</h2>
+<h2 id="5-acknowledgement">5. Acknowledgement</h2>
 <p>This project would not have been possible without the resources shared by other Github members. There are 2 notable Github members I would like to thank, they are <a href="https://github.com/PlayingNumbers">Mr Ken Jee</a> and <a href="https://github.com/arapfaik">Mr Ömer Sakarya</a>.</p>
-<h2 id="7-files-in-this-repository">7. Files in this Repository</h2>
+<h2 id="6-files-in-this-repository">6. Files in this Repository</h2>
 <p>The files in this bullet points are ordered in a chronological order of usage for this project.</p>
 <ul>
 <li>&ldquo;chromedriver&rdquo;: Needed for the webscraping algorithm in the 2nd bullet point</li>
@@ -568,6 +578,8 @@ Thank you for viewing!(:</p>
 <li>&ldquo;LICENSE&rdquo; : MIT license for open source projects</li>
 <li>&ldquo;README.md&rdquo; : Documentation of the project</li>
 </ul>
+<h2 id="7-disclaimer">7. Disclaimer</h2>
+<p>This findings were collected in May 2020 and represents data accurate to that date that has been collected from Glassdoor. In no way, does past performances guarantee future results and employment. In addition, the data from one job site does not represent the entire job scene. I intended this post to give a sampled overview of the job market and should not be taken as a population representation.</p>
         </div>
         
         
@@ -583,22 +595,22 @@ Thank you for viewing!(:</p>
     <nav id="TableOfContents">
   <ul>
     <li><a href="#methodology">Methodology</a></li>
-    <li><a href="#1-background">1. Background</a></li>
-    <li><a href="#2-usage">2. Usage</a></li>
-    <li><a href="#3-data-collection-approach">3. Data Collection Approach</a></li>
-    <li><a href="#4-findings">4. Findings</a>
+    <li><a href="#1-usage">1. Usage</a></li>
+    <li><a href="#2-data-collection-approach">2. Data Collection Approach</a></li>
+    <li><a href="#3-findings">3. Findings</a>
       <ul>
-        <li><a href="#41-number-of-job-listings-per-job-title">4.1 Number of Job Listings per Job Title</a></li>
-        <li><a href="#42-minimum-education-level-required">4.2 Minimum Education Level Required</a></li>
-        <li><a href="#43-technical-skills-requested-for-jobs">4.3 Technical Skills Requested for Jobs</a></li>
-        <li><a href="#44-academic-skills-requested-for-jobs">4.4 Academic Skills Requested for Jobs</a></li>
-        <li><a href="#45-hires-by-ownership-type">4.5 Hires by ownership type</a></li>
-        <li><a href="#46-job-description-word-cloud">4.6 Job Description Word Cloud</a></li>
+        <li><a href="#31-number-of-job-listings-per-job-title">3.1 Number of Job Listings per Job Title</a></li>
+        <li><a href="#32-minimum-education-level-required">3.2 Minimum Education Level Required</a></li>
+        <li><a href="#33-technical-skills-requested-for-jobs">3.3 Technical Skills Requested for Jobs</a></li>
+        <li><a href="#34-academic-skills-requested-for-jobs">3.4 Academic Skills Requested for Jobs</a></li>
+        <li><a href="#35-hires-by-ownership-type">3.5 Hires by ownership type</a></li>
+        <li><a href="#36-job-description-word-cloud">3.6 Job Description Word Cloud</a></li>
       </ul>
     </li>
-    <li><a href="#5-conclusions">5. Conclusions</a></li>
-    <li><a href="#6-acknowledgement">6. Acknowledgement</a></li>
-    <li><a href="#7-files-in-this-repository">7. Files in this Repository</a></li>
+    <li><a href="#4-conclusions">4. Conclusions</a></li>
+    <li><a href="#5-acknowledgement">5. Acknowledgement</a></li>
+    <li><a href="#6-files-in-this-repository">6. Files in this Repository</a></li>
+    <li><a href="#7-disclaimer">7. Disclaimer</a></li>
   </ul>
 </nav>
 </div>
