@@ -7,15 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>James Gan | Personal Portfolio | 2020&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 16 Jun 2020 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://jamesgsw.github.io/James-Portfolio/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Exploring the Big Data and Analytics Job Market in Singapore 2020</title>
+      <title>Exploratory Analysis of Data Science and Analytics Job Market in Singapore 2020</title>
       <link>https://jamesgsw.github.io/James-Portfolio/projects/job-market/</link>
-      <pubDate>Tue, 16 Jun 2020 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0800</pubDate>
       
       <guid>https://jamesgsw.github.io/James-Portfolio/projects/job-market/</guid>
       <description>&lt;p&gt;Personal Project - As graduation approaches, I decided that it would be beneficial to get an overview of the Data centred jobs in Singapore. Therefore, I decided to scrap the popular job site, Glassdoor, to gather data on the jobs on the market and have the bigger picture of the job market.&lt;/p&gt;</description>

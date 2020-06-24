@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>James Gan | Personal Portfolio | 2020&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 16 Jun 2020 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://jamesgsw.github.io/James-Portfolio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Education</title>
+      <link>https://jamesgsw.github.io/James-Portfolio/education/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesgsw.github.io/James-Portfolio/education/</guid>
+      <description>Singapore University of Technology and Design May 2018 to Aug 2021  Bachelor of Engineering in Engineering Systems and Design, Honours Major in Business Analytics, with a Minor in Artificial Intelligence Recipient of Singtel Exchange Undergraduate Scholarship (SHINE Program) Notable Courses: Statistics, Optimisation, Probability &amp;amp; Data and Business Analytics  Zhejiang University May 2019 to Aug 2019  Semester Exchange Recipient of Temasek Foundation international (TFi) Scholarship Took courses in Principles of Big Data and Design - User Experience  </description>
+    </item>
+    
+    <item>
+      <title>Work Experience</title>
+      <link>https://jamesgsw.github.io/James-Portfolio/workexperience/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesgsw.github.io/James-Portfolio/workexperience/</guid>
+      <description>DataSpark - Data Science Intern June 2020 to Sep 2020  Under Singtel SHINE Programme Identified high value customer segment with feature engineering using Spark 2.0 written in Scala. Derived data sources from UNIX bash shell and hadoop file system. Upkept the documentation of 2 projects ensuring methodology are correctly illustrated for future references.  Eatigo - Operations Intern Feb 2018 to March 2018  Managed Salesforce to coordinate the requirements of merchants and users. Took part in Town Hall meetings, which gave me a better understanding of the corporate structure.</description>
+    </item>
+    
+    <item>
+      <title>Exploratory Analysis of Data Science and Analytics Job Market in Singapore 2020</title>
+      <link>https://jamesgsw.github.io/James-Portfolio/projects/job-market/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://jamesgsw.github.io/James-Portfolio/projects/job-market/</guid>
+      <description>&lt;p&gt;Personal Project - As graduation approaches, I decided that it would be beneficial to get an overview of the Data centred jobs in Singapore. Therefore, I decided to scrap the popular job site, Glassdoor, to gather data on the jobs on the market and have the bigger picture of the job market.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Extra-Curricular Activities</title>
@@ -18,16 +45,7 @@
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jamesgsw.github.io/James-Portfolio/eca/</guid>
-      <description>Competitions    Name Issuing Organisation Title Year     Shopee Code League(On Going) Shopee Participant 2020   Smart City Challenge GovTech &amp;amp; DBS Participant 2019   DBS Design Challenge DBS 1st Place 2018   UBS GCOO Case Challenge UBS Participant 2018    University Societies    Society Name Role Role Summary Years Active     Volleyball Player Not Applicable 2020-2021   University Ambassador Member School Ambassador for external and internal events 2018-2020   Student Government Director of Public Relations Handled sponsorships deals and external collaborative events 2018-2019   Mountaineering Club Member Not Applicable 2018    </description>
-    </item>
-    
-    <item>
-      <title>Exploring the Big Data and Analytics Job Market in Singapore 2020</title>
-      <link>https://jamesgsw.github.io/James-Portfolio/projects/job-market/</link>
-      <pubDate>Tue, 16 Jun 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://jamesgsw.github.io/James-Portfolio/projects/job-market/</guid>
-      <description>&lt;p&gt;Personal Project - As graduation approaches, I decided that it would be beneficial to get an overview of the Data centred jobs in Singapore. Therefore, I decided to scrap the popular job site, Glassdoor, to gather data on the jobs on the market and have the bigger picture of the job market.&lt;/p&gt;</description>
+      <description>Competitions    Name Issuing Organisation Title Year     Shopee Code League Shopee Participant 2020   Smart City Challenge GovTech &amp;amp; DBS Participant 2019   DBS Design Challenge DBS 1st Place 2018   UBS GCOO Case Challenge UBS Participant 2018    University Societies    Society Name Role Role Summary Years Active     Volleyball Player Not Applicable 2020-2021   University Ambassador Member School Ambassador for external and internal events 2018-2020   Student Government Director of Public Relations Handled sponsorships deals and external collaborative events 2018-2019   Mountaineering Club Member Not Applicable 2018    </description>
     </item>
     
     <item>
@@ -52,30 +70,12 @@ I’m a big believer that the university journey is what you make out of it, act
     </item>
     
     <item>
-      <title>Education</title>
-      <link>https://jamesgsw.github.io/James-Portfolio/education/</link>
-      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesgsw.github.io/James-Portfolio/education/</guid>
-      <description>Singapore University of Technology and Design May 2018 to Aug 2021  Bachelor of Engineering in Engineering Systems and Design, Honours Major in Business Analytics, with a Minor in Artificial Intelligence Recipient of Singtel Exchange Undergraduate Scholarship (SHINE Program) Notable Courses: Statistics, Optimisation, Probability &amp;amp; Data and Business Analytics  Zhejiang University May 2019 to Aug 2019  Semester Exchange, Took courses in Principles of Big Data and Design(User Experience) Recipient of Temasek Foundation international (TFi) Scholarship.</description>
-    </item>
-    
-    <item>
       <title>Skills</title>
       <link>https://jamesgsw.github.io/James-Portfolio/skills/</link>
       <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jamesgsw.github.io/James-Portfolio/skills/</guid>
-      <description>Programming  Python - pandas, NumPy, Matplotlib, Plotly, Sci-Kit Learn, Statsmodel, spaCy, Beautiful Soup, Selenium Scala Spark 2.0 Hadoop R - tidyr, ggplot2, mlr SQL Git UNIX Shell Scripting  Enterprise Software  Microsoft Excel Tableau Desktop and Prep Builder Adobe Illustrator  Academic Knowledge  Statistics Feature Engineering Data Cleaning Optimisation Machine Learning Algorithm Natural Language Processing Web-Scraping  Certificates    Course Issuing Organisation     Hadoop for Big Data Udemy   Spark 2.</description>
-    </item>
-    
-    <item>
-      <title>Work Experience</title>
-      <link>https://jamesgsw.github.io/James-Portfolio/workexperience/</link>
-      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesgsw.github.io/James-Portfolio/workexperience/</guid>
-      <description>DataSpark - Data Science Intern June 2020 to Sep 2020  Under Singtel SHINE Programme  Eatigo - Operations Intern Feb 2018 to March 2018  Managed Salesforce to coordinate the requirements of merchants and users. Took part in Town Hall meetings, which gave me a better understanding of the corporate structure.  </description>
+      <description>Programming  Python - pandas, NumPy, Matplotlib, Plotly, Sci-Kit Learn, Statsmodel, spaCy, Beautiful Soup, Selenium Scala Spark 2.0 Hadoop R - tidyr, ggplot2, mlr SQL Git Bash / UNIX Shell Scripting  Enterprise Software  Microsoft Excel Tableau Desktop and Prep Builder Adobe Illustrator  Academic Knowledge  Statistics Optimisation Data Analytics Data Cleaning Feature Engineering Machine Learning Algorithm Natural Language Processing Web-Scraping  Certificates    Course Issuing Organisation     Feature Engineering with PySpark DataCamp   Hadoop for Big Data Udemy   Spark 2.</description>
     </item>
     
     <item>
