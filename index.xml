@@ -102,8 +102,7 @@ I’m a big believer that the university journey is what you make out of it, act
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0800</pubDate>
       
       <guid>https://jamesgsw.github.io/James-Portfolio/projects/tsh-manufacturing-bottleneck/</guid>
-      <description>&lt;p&gt;Industry Attachment Project - This project was my university industry attachment with TSH Synergy PTE LTD in conjunction with  university modules: Data and Business Analytics. By creating a Business Intelligence Dashboard and Data Analysis to expedite the identification of possible bottlenecks.
-&lt;img src=&#34;https://user-images.githubusercontent.com/36501392/84379763-ef2b3400-ac18-11ea-86be-ebb0f4fb13c2.png&#34; alt=&#34;Team 19&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Industry Attachment Project - This project was my university industry attachment with TSH Synergy PTE LTD in conjunction with  university modules: Data and Business Analytics. By creating a Business Intelligence Dashboard and Data Analysis to expedite the identification of possible bottlenecks.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -113,6 +112,15 @@ I’m a big believer that the university journey is what you make out of it, act
       
       <guid>https://jamesgsw.github.io/James-Portfolio/archives/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Elevator Crowd Monitoring</title>
+      <link>https://jamesgsw.github.io/James-Portfolio/projects/dw-elevator-crowd-monitoring/</link>
+      <pubDate>Wed, 22 May 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://jamesgsw.github.io/James-Portfolio/projects/dw-elevator-crowd-monitoring/</guid>
+      <description>&lt;p&gt;University Academic Project - This project was an academic project for my first programming module in University. The project utilised electrical engineering knowledge alongside Python programming knowledge to develop a product that consists of a Graphical User Interface(GUI) where users can interact with to gain information on the crowd in the elevator. And a electrical circuit system consisting of trip wires and ultrasonic sensors to allow us to derive the flow of users of the elevator and the floor on which the elevator is serving&lt;/p&gt;</description>
     </item>
     
   </channel>
