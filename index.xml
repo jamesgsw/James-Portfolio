@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Education</title>
+      <link>https://jamesgsw.github.io/James-Portfolio/education/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesgsw.github.io/James-Portfolio/education/</guid>
+      <description>Singapore University of Technology and Design May 2018 to Aug 2021  Bachelor of Engineering in Engineering Systems and Design, Honours Major in Business Analytics, with a Minor in Artificial Intelligence Recipient of Singtel Exchange Undergraduate Scholarship (SHINE Program) Notable Courses: Statistics, Optimisation, Probability &amp;amp; Data and Business Analytics  Zhejiang University May 2019 to Aug 2019  Semester Exchange Recipient of Temasek Foundation international (TFi) Scholarship Took courses in Principles of Big Data and Design - User Experience  </description>
+    </item>
+    
+    <item>
       <title>Path Finding Visualisation using A* Algorithm</title>
       <link>https://jamesgsw.github.io/James-Portfolio/projects/path-finding-astar-algorithm/</link>
       <pubDate>Fri, 24 Jul 2020 00:00:00 +0800</pubDate>
@@ -33,21 +42,12 @@ The project was built with Python and utilised the Python package PyGame to buil
     </item>
     
     <item>
-      <title>Education</title>
-      <link>https://jamesgsw.github.io/James-Portfolio/education/</link>
-      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesgsw.github.io/James-Portfolio/education/</guid>
-      <description>Singapore University of Technology and Design May 2018 to Aug 2021  Bachelor of Engineering in Engineering Systems and Design, Honours Major in Business Analytics, with a Minor in Artificial Intelligence Recipient of Singtel Exchange Undergraduate Scholarship (SHINE Program) Notable Courses: Statistics, Optimisation, Probability &amp;amp; Data and Business Analytics  Zhejiang University May 2019 to Aug 2019  Semester Exchange Recipient of Temasek Foundation international (TFi) Scholarship Took courses in Principles of Big Data and Design - User Experience  </description>
-    </item>
-    
-    <item>
       <title>Work Experience</title>
       <link>https://jamesgsw.github.io/James-Portfolio/workexperience/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jamesgsw.github.io/James-Portfolio/workexperience/</guid>
-      <description>DataSpark - Data Science Intern June 2020 to Sep 2020  Under Singtel SHINE Programme Identified high value customer segment with feature engineering using Spark 2.0 written in Scala. Derived data sources from UNIX bash shell and hadoop file system. Upkept the documentation of 2 projects ensuring methodology are correctly illustrated for future references.  Eatigo - Operations Intern Feb 2018 to March 2018  Managed Salesforce to coordinate the requirements of merchants and users. Took part in Town Hall meetings, which gave me a better understanding of the corporate structure.</description>
+      <description>DataSpark - Data Science Intern June 2020 to Sep 2020  Under Singtel SHINE Programme Identified high value customer segment of business through feature engineering using Spark 2.0 written in Scala. Validated key business metrics utilised by product mangement team through test cases written with SparkSQL. Improved quality of data with development of Outlier Detection Algorithm utilising DBSCAN and ARIMA models.  Eatigo - Operations Intern Feb 2018 to March 2018  Managed Salesforce to coordinate the requirements of merchants and users.</description>
     </item>
     
     <item>
@@ -86,7 +86,7 @@ Throughout the my education journey, I had the privilege of leading various grou
       
       <guid>https://jamesgsw.github.io/James-Portfolio/contact/</guid>
       <description>I&amp;rsquo;m available for coffee or a zoom session!(:
-   Platform URL     Portfolio Website: https://jamesgsw.github.io/James-Portfolio/   Linkedin: https://www.linkedin.com/in/jamesgsw/   Github: https://github.com/jamesgsw   Email: james_gan@mymail.sutd.edu.sg   Phone Number: +65 90279661    </description>
+   Platform URL     Portfolio Website: https://jamesgsw.github.io/James-Portfolio/   Linkedin: https://www.linkedin.com/in/jamesgsw/   Github: https://github.com/jamesgsw   Kaggle: https://www.kaggle.com/jamesgsw   Email: james_gan@mymail.sutd.edu.sg   Phone Number: +65 90279661    </description>
     </item>
     
     <item>
@@ -95,7 +95,12 @@ Throughout the my education journey, I had the privilege of leading various grou
       <pubDate>Fri, 29 May 2020 00:00:00 +0800</pubDate>
       
       <guid>https://jamesgsw.github.io/James-Portfolio/projects/titanic-accident/</guid>
-      <description>&lt;p&gt;Personal Project -  I undertook this project during the start of the penultimate year summer break to hone my knowledge in statistics and analytical thinking.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Personal Project -  I undertook this project during the start of the penultimate year summer break to hone my knowledge in statistics and analytical thinking.&lt;/p&gt;
+&lt;p&gt;Key Results:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Identified features with statistical hypothesis test such as ANOVA, Chi-Sqaured Test and Bonferroni Method with R.&lt;/li&gt;
+&lt;li&gt;Achieved 75% prediction accuracy on Kaggle Competition with Gradient Boosting Classifier algorithm in Python.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>

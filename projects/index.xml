@@ -38,7 +38,12 @@ The project was built with Python and utilised the Python package PyGame to buil
       <pubDate>Fri, 29 May 2020 00:00:00 +0800</pubDate>
       
       <guid>https://jamesgsw.github.io/James-Portfolio/projects/titanic-accident/</guid>
-      <description>&lt;p&gt;Personal Project -  I undertook this project during the start of the penultimate year summer break to hone my knowledge in statistics and analytical thinking.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Personal Project -  I undertook this project during the start of the penultimate year summer break to hone my knowledge in statistics and analytical thinking.&lt;/p&gt;
+&lt;p&gt;Key Results:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Identified features with statistical hypothesis test such as ANOVA, Chi-Sqaured Test and Bonferroni Method with R.&lt;/li&gt;
+&lt;li&gt;Achieved 75% prediction accuracy on Kaggle Competition with Gradient Boosting Classifier algorithm in Python.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
