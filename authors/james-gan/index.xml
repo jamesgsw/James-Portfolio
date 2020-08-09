@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>James Gan | Personal Portfolio | 2020&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 24 Jun 2020 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://jamesgsw.github.io/James-Portfolio/authors/james-gan/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Shopee Code League Hackathon 2020</title>
+      <link>https://jamesgsw.github.io/James-Portfolio/projects/shopee-code-league/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://jamesgsw.github.io/James-Portfolio/projects/shopee-code-league/</guid>
+      <description>&lt;br&gt;
+Industry Hackathon - In my penultimate year, I took part in Shopee&#39;s Code League Hackathon 2020 which was for the first time completely held online due to the novel coronavirus situation. The challenge was held over the course of 8 week where there were 8 challenges that overlapped each other in the field of data science, machine learning, data analysis and natural language processing. [Link](https://careers.shopee.sg/codeleague/) to the hackathon page.&lt;br/&gt;
+&lt;/br&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Exploratory Analysis of Data Science and Analytics Job Market in Singapore 2020</title>

@@ -3,22 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jamesgsw.github.io/James-Portfolio/</loc>
+    <lastmod>2020-08-09T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgsw.github.io/James-Portfolio/authors/</loc>
+    <lastmod>2020-08-09T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgsw.github.io/James-Portfolio/authors/james-gan/</loc>
+    <lastmod>2020-08-09T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgsw.github.io/James-Portfolio/projects/</loc>
+    <lastmod>2020-08-09T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgsw.github.io/James-Portfolio/projects/shopee-code-league/</loc>
+    <lastmod>2020-08-09T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jamesgsw.github.io/James-Portfolio/education/</loc>
     <lastmod>2020-08-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jamesgsw.github.io/James-Portfolio/</loc>
-    <lastmod>2020-07-24T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jamesgsw.github.io/James-Portfolio/projects/path-finding-astar-algorithm/</loc>
-    <lastmod>2020-07-24T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesgsw.github.io/James-Portfolio/projects/</loc>
     <lastmod>2020-07-24T00:00:00+08:00</lastmod>
   </url>
   
@@ -33,17 +48,7 @@
   </url>
   
   <url>
-    <loc>https://jamesgsw.github.io/James-Portfolio/authors/</loc>
-    <lastmod>2020-06-24T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jamesgsw.github.io/James-Portfolio/projects/job-market/</loc>
-    <lastmod>2020-06-24T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesgsw.github.io/James-Portfolio/authors/james-gan/</loc>
     <lastmod>2020-06-24T00:00:00+08:00</lastmod>
   </url>
   
