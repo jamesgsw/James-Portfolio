@@ -13,6 +13,24 @@
     
     
     <item>
+      <title>Education</title>
+      <link>https://jamesgsw.github.io/James-Portfolio/education/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesgsw.github.io/James-Portfolio/education/</guid>
+      <description>Singapore University of Technology and Design May 2018 to Aug 2021  Bachelor of Engineering in Engineering Systems and Design, Honours Major in Business Analytics, with a Minor in Artificial Intelligence Recipient of Singtel Exchange Undergraduate Scholarship (SHINE Program) Notable Courses: Statistics, Optimisation, Probability &amp;amp; Data and Business Analytics  Zhejiang University May 2019 to Aug 2019  Semester Exchange Recipient of Temasek Foundation international (TFi) Scholarship Took courses in Principles of Big Data and Design - User Experience  </description>
+    </item>
+    
+    <item>
+      <title>Skills</title>
+      <link>https://jamesgsw.github.io/James-Portfolio/skills/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesgsw.github.io/James-Portfolio/skills/</guid>
+      <description>Programming  Python - pandas, NumPy, Matplotlib, Plotly, Sci-Kit Learn, Statsmodel, spaCy, Beautiful Soup, Selenium Scala Spark 2.0 Hadoop R - tidyr, ggplot2, mlr SQL Git Bash  Enterprise Software  Microsoft Excel Tableau Desktop and Prep Builder Adobe Illustrator and Photoshop  Academic Knowledge  Statistics Optimisation Machine Learning Algorithm Neural Networks  Certificates    Course Issuing Organisation     Neural Networks and Deep Learning Coursera   Hadoop for Big Data Udemy   Spark 2.</description>
+    </item>
+    
+    <item>
       <title>Shopee Code League Hackathon 2020</title>
       <link>https://jamesgsw.github.io/James-Portfolio/projects/shopee-code-league/</link>
       <pubDate>Sun, 09 Aug 2020 00:00:00 +0800</pubDate>
@@ -26,15 +44,6 @@ Industry Hackathon - In my penultimate year, I took part in Shopee&#39;s Code Le
     </item>
     
     <item>
-      <title>Education</title>
-      <link>https://jamesgsw.github.io/James-Portfolio/education/</link>
-      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesgsw.github.io/James-Portfolio/education/</guid>
-      <description>Singapore University of Technology and Design May 2018 to Aug 2021  Bachelor of Engineering in Engineering Systems and Design, Honours Major in Business Analytics, with a Minor in Artificial Intelligence Recipient of Singtel Exchange Undergraduate Scholarship (SHINE Program) Notable Courses: Statistics, Optimisation, Probability &amp;amp; Data and Business Analytics  Zhejiang University May 2019 to Aug 2019  Semester Exchange Recipient of Temasek Foundation international (TFi) Scholarship Took courses in Principles of Big Data and Design - User Experience  </description>
-    </item>
-    
-    <item>
       <title>Path Finding Visualisation using A* Algorithm</title>
       <link>https://jamesgsw.github.io/James-Portfolio/projects/path-finding-astar-algorithm/</link>
       <pubDate>Fri, 24 Jul 2020 00:00:00 +0800</pubDate>
@@ -43,15 +52,6 @@ Industry Hackathon - In my penultimate year, I took part in Shopee&#39;s Code Le
       <description>Personal Project - The goal of undertaking this project was 3 prong. (1) Apply my knowledge in A* Path Finding algorithm,(2) Structure the code with Object Oriented Programming(OOP) technique and (3) Document the process with software architecture design.
 The project was built with Python and utilised the Python package PyGame to build the visualisation.
  Screenshot of the A Star Path Finding Algorithm Program Project  Table of Contents:  A* Path Search Algorithm Overview Usage Viewing Files in this Repository Lessons Learnt and Conclusion Acknowledgment  .</description>
-    </item>
-    
-    <item>
-      <title>Skills</title>
-      <link>https://jamesgsw.github.io/James-Portfolio/skills/</link>
-      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesgsw.github.io/James-Portfolio/skills/</guid>
-      <description>Programming  Python - pandas, NumPy, Matplotlib, Plotly, Sci-Kit Learn, Statsmodel, spaCy, Beautiful Soup, Selenium Scala Spark 2.0 Hadoop R - tidyr, ggplot2, mlr SQL Git Bash  Enterprise Software  Microsoft Excel Tableau Desktop and Prep Builder Adobe Illustrator  Academic Knowledge  Statistics Optimisation Data Analytics Data Cleaning Web-Scraping Feature Engineering Machine Learning Natural Language Processing  Certificates    Course Issuing Organisation     Feature Engineering with PySpark DataCamp   Hadoop for Big Data Udemy   Spark 2.</description>
     </item>
     
     <item>
