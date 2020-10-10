@@ -13,6 +13,26 @@
     
     
     <item>
+      <title>About</title>
+      <link>https://jamesgsw.github.io/James-Portfolio/about/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesgsw.github.io/James-Portfolio/about/</guid>
+      <description>James Portrait  Passionate about tech. Striving to make this world a better place.
+Hello there! I&#39;m a Business Analytics Major with a Artificial Intelligence Minor at Singapore University of Technology and Design(SUTD).
+Throughout the my education journey, I had the privilege of leading various groups such as the Vice-Head Prefect in Secondary School, Vice-Captain of Cross Country Club in Junior College and the Director of Public Relations for the Student Government for University.</description>
+    </item>
+    
+    <item>
+      <title>Skills</title>
+      <link>https://jamesgsw.github.io/James-Portfolio/skills/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesgsw.github.io/James-Portfolio/skills/</guid>
+      <description>Programming  Python - pandas, NumPy, Matplotlib, Plotly, Sci-Kit Learn, Statsmodel, spaCy, Beautiful Soup, Selenium Scala Spark 2.0 R - tidyr, ggplot2, mlr SQL Git Bash  Enterprise Software  Microsoft Excel Tableau Desktop and Prep Builder Adobe Illustrator and Photoshop  Academic Knowledge  Statistics Optimisation Machine Learning Algorithm Neural Networks Convolutional Neural Networks  Certificates    Course Issuing Organisation     Deep Learning Specialization Coursera   Machine Learning Coursera   Hadoop for Big Data Udemy   Spark 2.</description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>https://jamesgsw.github.io/James-Portfolio/contact/</link>
       <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
@@ -29,15 +49,6 @@
       
       <guid>https://jamesgsw.github.io/James-Portfolio/education/</guid>
       <description>Singapore University of Technology and Design May 2018 to Aug 2021  Bachelor of Engineering in Engineering Systems and Design, Honours Major in Business Analytics, with a Minor in Artificial Intelligence Recipient of Singtel Exchange Undergraduate Scholarship (SHINE Program) Notable Courses: Statistics, Optimisation, Probability &amp;amp; Data and Business Analytics  </description>
-    </item>
-    
-    <item>
-      <title>Skills</title>
-      <link>https://jamesgsw.github.io/James-Portfolio/skills/</link>
-      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesgsw.github.io/James-Portfolio/skills/</guid>
-      <description>Programming  Python - pandas, NumPy, Matplotlib, Plotly, Sci-Kit Learn, Statsmodel, spaCy, Beautiful Soup, Selenium Scala Spark 2.0 R - tidyr, ggplot2, mlr SQL Git Bash  Enterprise Software  Microsoft Excel Tableau Desktop and Prep Builder Adobe Illustrator and Photoshop  Academic Knowledge  Statistics Optimisation Machine Learning Algorithm Neural Networks  Certificates    Course Issuing Organisation     Machine Learning Coursera   Structuring Machine Learning Projects Coursera   Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization Coursera   Neural Networks and Deep Learning Coursera   Hadoop for Big Data Udemy   Spark 2.</description>
     </item>
     
     <item>
@@ -89,17 +100,6 @@ The project was built with Python and utilised the Python package PyGame to buil
       
       <guid>https://jamesgsw.github.io/James-Portfolio/projects/job-market/</guid>
       <description>&lt;p&gt;Personal Project - As graduation approaches, I decided that it would be beneficial to get an overview of the Data centred jobs in Singapore. Therefore, I decided to scrap the popular job site, Glassdoor, to gather data on the jobs on the market and have the bigger picture of the job market.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://jamesgsw.github.io/James-Portfolio/about/</link>
-      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesgsw.github.io/James-Portfolio/about/</guid>
-      <description>James Portrait  Passionate about tech. Striving to make this world a better place.
-Hello there! I&#39;m a Business Analytics Major with a Artificial Intelligence Minor at Singapore University of Technology and Design(SUTD).
-Throughout the my education journey, I had the privilege of leading various groups such as the Vice-Head Prefect in Secondary School, Vice-Captain of Cross Country Club in Junior College and the Director of Public Relations for the Student Government for University.</description>
     </item>
     
     <item>

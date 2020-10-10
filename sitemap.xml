@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jamesgsw.github.io/James-Portfolio/about/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgsw.github.io/James-Portfolio/skills/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jamesgsw.github.io/James-Portfolio/contact/</loc>
     <lastmod>2020-09-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamesgsw.github.io/James-Portfolio/education/</loc>
-    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesgsw.github.io/James-Portfolio/skills/</loc>
     <lastmod>2020-09-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -60,11 +65,6 @@
   <url>
     <loc>https://jamesgsw.github.io/James-Portfolio/projects/job-market/</loc>
     <lastmod>2020-06-24T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesgsw.github.io/James-Portfolio/about/</loc>
-    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
