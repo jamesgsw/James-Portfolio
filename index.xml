@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>James Gan | Personal Portfolio | 2020&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 09 Aug 2020 00:00:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://jamesgsw.github.io/James-Portfolio/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 09 Aug 2020 00:00:00 +0800</lastBuildDate><atom:link href="https://jamesgsw.github.io/James-Portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://jamesgsw.github.io/James-Portfolio/about/</link>
@@ -57,7 +53,7 @@ Throughout the my education journey, I had the privilege of leading various grou
       <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jamesgsw.github.io/James-Portfolio/workexperience/</guid>
-      <description>DataSpark - Data Science Intern June 2020 to Sep 2020  Under Singtel SHINE Programme Identified high value customer segment of business through feature engineering using Spark 2.0 written in Scala. Validated key business metrics utilised by product mangement team through test cases written with SparkSQL. Improved quality of data with development of Outlier Detection Algorithm utilising K-Means Clustering and Isolation Forest Algorithm.  Zhejiang University - Data Visualisation Intern May 2019 to Aug 2019  Developed data visualisation tool for Chinese Global Television network (CGTN) China as part of university project.</description>
+      <description>DataSpark - Data Science Intern June 2020 to Sep 2020  Under Singtel SHINE Programme Identified high value customer segment of business through feature engineering using Spark 2.0 written in Scala. Validated key business metrics utilised by product mangement team through test cases written with SparkSQL. Improved quality of data with development of Outlier Detection Algorithm utilising K-Means Clustering and Isolation Forest Algorithm. Internship Testimonial Letter  Zhejiang University - Data Visualisation Intern May 2019 to Aug 2019  Developed data visualisation tool for Chinese Global Television network (CGTN) China as part of university project.</description>
     </item>
     
     <item>

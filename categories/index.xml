@@ -6,10 +6,6 @@
     <description>Recent content in Categories on James&#39; Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>James Gan | Personal Portfolio | 2020&lt;/a&gt;</copyright>
-    
-	<atom:link href="https://jamesgsw.github.io/James-Portfolio/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>James Gan | Personal Portfolio | 2020&lt;/a&gt;</copyright><atom:link href="https://jamesgsw.github.io/James-Portfolio/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
